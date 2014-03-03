@@ -1,14 +1,14 @@
 package br.com.app.bean;
 
-import java.sql.Date;
+import java.util.Calendar;
 
 public class CronogramaBean 
 {
-	private int 	idCronograma;
-	private Date	dataInicioPrevista;
-	private Date	dataInicioRealizada;
-	private Date	dataFimPrevista;
-	private Date	dataFimRealizada;
+	private int 		idCronograma;
+	private Calendar	dataInicioPrevista;
+	private Calendar	dataInicioRealizada;
+	private Calendar	dataFimPrevista;
+	private Calendar	dataFimRealizada;
 
 	public int getIdCronograma() {
 		return idCronograma;
@@ -16,28 +16,28 @@ public class CronogramaBean
 	public void setIdCronograma(int idCronograma) {
 		this.idCronograma = idCronograma;
 	}
-	public Date getDataInicioPrevista() {
+	public Calendar getDataInicioPrevista() {
 		return dataInicioPrevista;
 	}
-	public void setDataInicioPrevista(Date dataInicioPrevista) {
+	public void setDataInicioPrevista(Calendar dataInicioPrevista) {
 		this.dataInicioPrevista = dataInicioPrevista;
 	}
-	public Date getDataInicioRealizada() {
+	public Calendar getDataInicioRealizada() {
 		return dataInicioRealizada;
 	}
-	public void setDataInicioRealizada(Date dataInicioRealizada) {
+	public void setDataInicioRealizada(Calendar dataInicioRealizada) {
 		this.dataInicioRealizada = dataInicioRealizada;
 	}
-	public Date getDataFimPrevista() {
+	public Calendar getDataFimPrevista() {
 		return dataFimPrevista;
 	}
-	public void setDataFimPrevista(Date dataFimPrevista) {
+	public void setDataFimPrevista(Calendar dataFimPrevista) {
 		this.dataFimPrevista = dataFimPrevista;
 	}
-	public Date getDataFimRealizada() {
+	public Calendar getDataFimRealizada() {
 		return dataFimRealizada;
 	}
-	public void setDataFimRealizada(Date dataFimRealizada) {
+	public void setDataFimRealizada(Calendar dataFimRealizada) {
 		this.dataFimRealizada = dataFimRealizada;
 	}
 	
